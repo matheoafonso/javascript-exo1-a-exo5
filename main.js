@@ -1,10 +1,10 @@
-//chaine de caractère
+//chaine de caractère 
 var MavariableString = "toto";
-//nombre 
-var MavariableNumerique = 100;
-//des tableaux
-var Mavariabletableau = ['Apple', 'Banana'];
-//des objets (ici la fenetre de navigateur )
-var MavariableObjet = window
+//nombre
+var MavariableNumerique = prompt ("entrez un nombre",100);
 
-alert(MavariableString + MavariableNumerique + Mavariabletableau[0]+ MavariableObjet.location.pathname);
+if (MavariableString == "toto" && MavariableNumerique !=200 || MavariableNumerique <=100) {
+    alert("je suis le cas 1");
+} else {
+    alert("je suis le cas 2")
+}
